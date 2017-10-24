@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\ShFrwk">
+      <UniqueIdentifier>{1b0405b3-cf3b-427e-90f7-9bc5c8e65e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\ShFrwk Headers">
+      <UniqueIdentifier>{5c349972-af97-4c81-8196-5c0915ff644d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShellUpdater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SOWFileItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SOWFileStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SOWFileSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SOWFolder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\CategoryProvider.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\CommandProvider.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\ContextMenu.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\DataObject.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\DllMain.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\DropTarget.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\EnumIDList.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\FileStream.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\IdentityName.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\ImagePreviewHandler.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\ImageThumbProvider.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\LaunchFile.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\NseBaseItem.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\NseFileItem.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\NseFilePropPages.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\NseFileSystem.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\PropertyStore.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\PropSheetExt.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\QueryInfo.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\SendTo.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\ShellFolder.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\ShUtils.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShFrwk\TransferItem.cpp">
+      <Filter>源文件\ShFrwk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SOWFolder.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\ShFrwk\res\ShellFolder.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\ShFrwk\res\ShellLocJunction.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\ShFrwk\res\ShellLocRooted.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\ShFrwk\res\ShellRootContextMenu.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\ShFrwk\res\ShellRootDropTarget.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\ShFrwk\res\ShellRootPreview.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\ShFrwk\res\ShellRootPropSheet.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\ShFrwk\res\ShellRootSendTo.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\ShFrwk\res\ShellRootShellNew.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\ShFrwk\res\ShellRootUrlProtocol.rgs">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellUpdater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SOWFileSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\CategoryProvider.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\CommandProvider.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\ContextMenu.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\DataObject.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\DropTarget.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\EnumIDList.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\FileStream.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\IdentityName.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\ImagePreviewHandler.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\ImageThumbProvider.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\LaunchFile.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\NseFileSystem.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\PropertyStore.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\PropSheetExt.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\QueryInfo.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\SendTo.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\ShellExt.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\ShellExt2.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\ShellFolder.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\ShFrwk.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\shfrwkres.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\ShUtils.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\TransferItem.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShFrwk\WebPreviewHandler.h">
+      <Filter>头文件\ShFrwk Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Folder.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SOWFolder.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

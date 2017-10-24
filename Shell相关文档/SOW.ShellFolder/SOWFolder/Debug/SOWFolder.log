@@ -1,0 +1,55 @@
+﻿生成启动时间为 2017/7/13 19:51:09。
+     1>项目“C:\work\Shell相关文档\SOW.ShellFolder\SOWFolder\SOWFolder.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\Shell相关文档\SOW.ShellFolder\Debug\SOWFolder.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\work\Shell相关文档\SOW.ShellFolder\Debug\SOWFolder.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\Shell相关文档\SOW.ShellFolder\Debug\SOWFolder.lib" /MACHINE:X86 /SAFESEH /DLL Debug\SOWFolder.res
+         Debug\ShellUpdater.obj
+         Debug\SOWFileItem.obj
+         Debug\SOWFileStream.obj
+         Debug\SOWFileSystem.obj
+         Debug\SOWFolder.obj
+         Debug\stdafx.obj
+         Debug\Utils.obj
+         Debug\CategoryProvider.obj
+         Debug\CommandProvider.obj
+         Debug\ContextMenu.obj
+         Debug\DataObject.obj
+         Debug\DllMain.obj
+         Debug\DropTarget.obj
+         Debug\EnumIDList.obj
+         Debug\FileStream.obj
+         Debug\IdentityName.obj
+         Debug\ImagePreviewHandler.obj
+         Debug\ImageThumbProvider.obj
+         Debug\LaunchFile.obj
+         Debug\NseBaseItem.obj
+         Debug\NseFileItem.obj
+         Debug\NseFilePropPages.obj
+         Debug\NseFileSystem.obj
+         Debug\PropertyStore.obj
+         Debug\PropSheetExt.obj
+         Debug\QueryInfo.obj
+         Debug\SendTo.obj
+         Debug\ShellFolder.obj
+         Debug\ShUtils.obj
+         Debug\TransferItem.obj
+     1>ShellUpdater.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__Create_HP_TcpPullClient@4，该符号在函数 "public: __thiscall CMsg::CMsg(void)" (??0CMsg@@QAE@XZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__Destroy_HP_TcpPullClient@4，该符号在函数 "public: __thiscall CMsg::~CMsg(void)" (??1CMsg@@QAE@XZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__Create_HP_TcpPullClientListener@0，该符号在函数 "public: __thiscall CMsg::CMsg(void)" (??0CMsg@@QAE@XZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__Destroy_HP_TcpPullClientListener@4，该符号在函数 "public: __thiscall CMsg::~CMsg(void)" (??1CMsg@@QAE@XZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__HP_Set_FN_Client_OnConnect@8，该符号在函数 "public: __thiscall CMsg::CMsg(void)" (??0CMsg@@QAE@XZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__HP_Set_FN_Client_OnSend@8，该符号在函数 "public: __thiscall CMsg::CMsg(void)" (??0CMsg@@QAE@XZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__HP_Set_FN_Client_OnPullReceive@8，该符号在函数 "public: __thiscall CMsg::CMsg(void)" (??0CMsg@@QAE@XZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__HP_Set_FN_Client_OnClose@8，该符号在函数 "public: __thiscall CMsg::CMsg(void)" (??0CMsg@@QAE@XZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__HP_Set_FN_Client_OnError@8，该符号在函数 "public: __thiscall CMsg::CMsg(void)" (??0CMsg@@QAE@XZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__HP_Client_Start@16，该符号在函数 "public: int __thiscall CMsg::Connect(void)" (?Connect@CMsg@@QAEHXZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__HP_Client_Stop@4，该符号在函数 "public: int __thiscall CMsg::Disconnect(void)" (?Disconnect@CMsg@@QAEHXZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__HP_Client_Send@12，该符号在函数 "public: int __thiscall CMsg::SendMsg(wchar_t *,int,unsigned char *,int,wchar_t *,int,unsigned char *,int *,int,int)" (?SendMsg@CMsg@@QAEHPA_WHPAEH0H1PAHHH@Z) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__HP_Client_GetState@4，该符号在函数 "public: int __thiscall CMsg::Disconnect(void)" (?Disconnect@CMsg@@QAEHXZ) 中被引用
+     1>Utils.obj : error LNK2019: 无法解析的外部符号 __imp__HP_TcpPullClient_Fetch@12，该符号在函数 "private: static enum En_HP_HandleResult __stdcall CMsg::OnReceive(void *,int)" (?OnReceive@CMsg@@CG?AW4En_HP_HandleResult@@PAXH@Z) 中被引用
+     1>C:\work\Shell相关文档\SOW.ShellFolder\Debug\SOWFolder.dll : fatal error LNK1120: 14 个无法解析的外部命令
+     1>已完成生成项目“C:\work\Shell相关文档\SOW.ShellFolder\SOWFolder\SOWFolder.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.70

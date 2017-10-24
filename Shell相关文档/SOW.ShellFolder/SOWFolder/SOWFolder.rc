@@ -1,0 +1,174 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+#include "../ShFrwk/shfrwkres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APP                 ICON                    "res\\Folder.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_FILE MENU 
+BEGIN
+    POPUP "ContextMenu"
+    BEGIN
+        MENUITEM "打开",                          1
+        MENUITEM "设置共享",                        ID_FILE_SHARE
+        MENUITEM "取消共享",                        ID_FILE_UNSHARE
+        MENUITEM "加锁",                          ID_FILE_CHECKOUT
+        MENUITEM "解锁",                          ID_FILE_CHECKIN
+        MENUITEM SEPARATOR
+    END
+    POPUP "ViewMenu"
+    BEGIN
+        MENUITEM "打开",                          1
+        MENUITEM "设置共享",                        ID_FILE_SHARE
+        MENUITEM "取消共享",                        ID_FILE_UNSHARE
+        MENUITEM "加锁",                          ID_FILE_CHECKOUT
+        MENUITEM "解锁",                          ID_FILE_CHECKIN
+        MENUITEM SEPARATOR
+    END
+END
+
+IDM_FOLDER MENU 
+BEGIN
+    POPUP "ContextMenu"
+    BEGIN
+        MENUITEM SEPARATOR
+        POPUP "新建"
+        BEGIN
+            MENUITEM "&文件夹",                        ID_FILE_NEWFOLDER
+        END
+    END
+    POPUP "ViewMenu"
+    BEGIN
+        MENUITEM SEPARATOR
+        POPUP "新建"
+        BEGIN
+            MENUITEM "文件夹",                         ID_FILE_NEWFOLDER
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "属性",                          4
+    END
+    POPUP "ExplorerMenu"
+    BEGIN
+        MENUITEM "设置工作目录",                      ID_WORKDIR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_OPEN            "打开文件\n打开"
+    ID_FILE_EDIT            "编辑文件\n编辑"
+    ID_FILE_NEW             "创建新文件"
+    ID_WORKDIR              "设置本地的工作目录"
+    ID_FILE_CHECKOUT        "获得文件所有权\n获得文件所有权"
+    ID_FILE_CHECKIN         "交出文件所有权\n交出文件所有权"
+    ID_FILE_SHARE           "设置文件可多人轮流编辑\n共享"
+    ID_FILE_UNSHARE         "改为独占模式\n取消共享"
+    ID_FILE_COMMIT          "提交修改到服务器\n提交修改到服务器"
+    ID_FILE_ROLLBACK        "撤销本次修改\n撤销本次修改"
+    ID_FILE_PROPERTIES      "显示属性\n属性"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NEWFOLDER           "新建文件夹"
+    IDS_ILLEGAL             "本次修改无效：服务器版本已更新，或者文件的当前所有者不是本人。\r\n请先撤销本次修改，然后更新文件版本，再把本次修改合并进去"
+    IDS_UPDATED             "文件已是最新，无需提交"
+    IDS_SERVER_ERR          "服务器错误"
+    IDS_AUTHCOMPL_TITLE     "登录智源云盘"
+    IDS_AUTHCOMPL_DESCRIPTION "登录完成后，按“完成”按钮"
+    IDS_AUTHCOMPL_FOOTER    "回到登录界面"
+    IDS_AUTHCOMPL_DONE      "完成\n完成登录"
+    IDS_AUTHCOMPL_CANCEL    "取消\n取消登录"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NSE_PROJNAME        "智源云盘"
+    IDS_NSE_DISPLAYNAME     "智源云盘"
+    IDS_NSE_DESCRIPTION     "SOW Shell Extension"
+    IDS_NSE_FILEEXTENSION   ".sow"
+    IDS_NSE_VENDOR          "www.szsow.com"
+    IDS_NSE_VOLUME          "SOW Volume"
+    IDS_NSE_URLPROTOCOL     "xxx"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#include "../ShFrwk/ShFrwk.rc"
+#include "../ShFrwk/NseFilePropPages.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
