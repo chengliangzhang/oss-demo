@@ -1,0 +1,87 @@
+Junit Generator2安装配置方法
+1. 使用File-Settings-Plugins显示Plugins配置，点击Browse repositiries从网上搜索插件
+2. 搜索Junit Generator2, 并点击安装
+3. 重启idea后使用File-Settings-Other Settings-JunitGenerator显示配置窗口
+4. 更改Output Path: ${SOURCEPATH}/../../test/java/${PACKAGE}/${FILENAME}
+5. 更改Default Template: Junit 4
+6. 点击Junit 4选项卡，替换模板为下面的文字，并更改@author 注解
+7. 在源代码上右击后选择Generate-JUnit Test,即可生成测试代码
+
+######################################################################################## 
+## 
+## Available variables: 
+##         $entryList.methodList - List of method composites 
+##         $entryList.privateMethodList - List of private method composites 
+##         $entryList.fieldList - ArrayList of class scope field names 
+##         $entryList.className - class name 
+##         $entryList.packageName - package name 
+##         $today - Todays date in MM/dd/yyyy format 
+## 
+##            MethodComposite variables: 
+##                $method.name - Method Name 
+##                $method.signature - Full method signature in String form 
+##                $method.reflectionCode - list of strings representing commented out reflection code to access method (Private Methods) 
+##                $method.paramNames - List of Strings representing the method's parameters' names 
+##                $method.paramClasses - List of Strings representing the method's parameters' classes 
+## 
+## You can configure the output class name using "testClass" variable below. 
+## Here are some examples: 
+## Test${entry.ClassName} - will produce TestSomeClass 
+## ${entry.className}Test - will produce SomeClassTest 
+## 
+######################################################################################## 
+## 
+#macro (cap $strIn)$strIn.valueOf($strIn.charAt(0)).toUpperCase()$strIn.substring(1)#end 
+## Iterate through the list and generate testcase for every entry. 
+#foreach ($entry in $entryList) 
+#set($testClass="${entry.className}Test") 
+## 
+package $entry.packageName; 
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+/** 
+* ${entry.className} Tester. 
+* 
+* @author Zhangchengliang
+* @since ${today} 
+* @version 1.0 
+*/
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest
+public class $testClass { 
+#foreach($method in $entry.methodList)
+    /** for method: $method.signature */ 
+    @Test
+    public void test#cap(${method.name})() throws Exception { 
+        //TODO: Test goes here... 
+    } 
+#end 
+    
+#foreach($method in $entry.privateMethodList) 
+    /** for private method: $method.signature */ 
+    @Test
+    public void test#cap(${method.name})() throws Exception { 
+        //TODO: Test goes here... 
+#foreach($string in $method.reflectionCode) 
+        $string 
+#end 
+    } 
+#end
+
+    /** action before each test */
+    @Before
+    public void before() throws Exception { 
+    } 
+    
+    /** action after every test */
+    @After
+    public void after() throws Exception { 
+    } 
+} 
+#end
