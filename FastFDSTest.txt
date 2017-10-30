@@ -1,0 +1,4 @@
+Alibaba Java Coding Guidelines安装配置方法
+1. 使用File-Settings-Plugins显示Plugins配置，点击Browse repositiries从网上搜索插件
+2. 搜索Alibaba Java Coding Guidelines, 并点击安装
+3. 重启idea后使用File-Settings-Editor-Inspections,点击Ali-Check,可显示及更改代码检查规则

@@ -1,6 +1,6 @@
 Junit Generator2安装配置方法
 1. 使用File-Settings-Plugins显示Plugins配置，点击Browse repositiries从网上搜索插件
-2. 搜索Junit Generator2, 并点击安装
+2. 搜索JUnitGenerator V2.0, 并点击安装
 3. 重启idea后使用File-Settings-Other Settings-JunitGenerator显示配置窗口
 4. 更改Output Path: ${SOURCEPATH}/../../test/java/${PACKAGE}/${FILENAME}
 5. 更改Default Template: Junit 4
@@ -54,6 +54,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
+//@SpringBootConfiguration //only enable when target module hasn't @SpringBootApplication
 public class $testClass { 
 #foreach($method in $entry.methodList)
     /** for method: $method.signature */ 
