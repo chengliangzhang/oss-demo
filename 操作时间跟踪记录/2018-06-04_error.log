@@ -1,0 +1,20 @@
+15:14:07 WARN  [      main] io.undertow.websockets.jsr    : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+15:14:07 WARN  [      main] io.undertow.websockets.jsr    : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+15:14:09 WARN  [      main] org.springframework.boot.autoconfigure.thymeleaf.AbstractTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+15:14:09 WARN  [      main] org.thymeleaf.templatemode.TemplateMode: [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:32:08 WARN  [      main] io.undertow.websockets.jsr    : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+15:32:08 WARN  [      main] io.undertow.websockets.jsr    : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+15:32:10 WARN  [      main] org.springframework.boot.autoconfigure.thymeleaf.AbstractTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+15:32:10 WARN  [      main] org.thymeleaf.templatemode.TemplateMode: [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:33:10 WARN  [      main] io.undertow.websockets.jsr    : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+15:33:10 WARN  [      main] io.undertow.websockets.jsr    : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+15:33:12 WARN  [      main] org.springframework.boot.autoconfigure.thymeleaf.AbstractTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+15:33:12 WARN  [      main] org.thymeleaf.templatemode.TemplateMode: [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:34:39 WARN  [      main] io.undertow.websockets.jsr    : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+15:34:39 WARN  [      main] io.undertow.websockets.jsr    : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+15:34:41 WARN  [      main] org.springframework.boot.autoconfigure.thymeleaf.AbstractTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+15:34:41 WARN  [      main] org.thymeleaf.templatemode.TemplateMode: [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:35:45 WARN  [      main] io.undertow.websockets.jsr    : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+15:35:45 WARN  [      main] io.undertow.websockets.jsr    : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+15:35:49 WARN  [      main] org.springframework.boot.autoconfigure.thymeleaf.AbstractTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+15:35:49 WARN  [      main] org.thymeleaf.templatemode.TemplateMode: [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
